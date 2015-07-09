@@ -41,12 +41,7 @@ typedef vector<ii> vii;
 int dx[] = {0, 0, -1, 1};
 int dy[] = {1, -1, 0, 0};
 
-int findZero (string s){
-    rep(i, 0, 9)
-        if (s[i] == '0')
-            return i;
-    return 0;
-}
+
 
 string swapChars(string s, int i, int j){
     char temp = s[i];
